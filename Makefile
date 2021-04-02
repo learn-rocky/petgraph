@@ -36,3 +36,17 @@ mksvgs: mkdocs graph-example.dot
 
 
 .PHONY: docs mkdocs mksvgs subst $(DOCCRATES) $(RMDOCS)
+
+
+# enable makefile to accept argument after command
+#https://stackoverflow.com/questions/6273608/how-to-pass-argument-to-makefile-from-command-line
+
+args = `arg="$(filter-out $@,$(MAKECMDGOALS))" && echo $${arg:-${1}}`
+%:
+	@:
+status:
+	git status
+commit:
+	git commit -am "$(call args, Automated commit message without details, Please read the code difference)"  && git push
+pull:
+	git pull

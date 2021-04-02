@@ -1,0 +1,6 @@
+var N = null;var sourcesIndex = {};
+sourcesIndex["fixedbitset"] = {"name":"","files":["lib.rs","range.rs"]};
+sourcesIndex["hashbrown"] = {"name":"","dirs":[{"name":"external_trait_impls","files":["mod.rs"]},{"name":"raw","files":["bitmask.rs","mod.rs","sse2.rs"]}],"files":["lib.rs","macros.rs","map.rs","scopeguard.rs","set.rs"]};
+sourcesIndex["indexmap"] = {"name":"","dirs":[{"name":"map","dirs":[{"name":"core","files":["raw.rs"]}],"files":["core.rs"]}],"files":["equivalent.rs","lib.rs","macros.rs","map.rs","mutable_keys.rs","set.rs","util.rs"]};
+sourcesIndex["petgraph"] = {"name":"","dirs":[{"name":"algo","files":["dominators.rs","mod.rs","tred.rs"]},{"name":"graph_impl","dirs":[{"name":"stable_graph","files":["mod.rs"]}],"files":["frozen.rs","mod.rs"]},{"name":"visit","files":["dfsvisit.rs","filter.rs","macros.rs","mod.rs","reversed.rs","traversal.rs"]}],"files":["adj.rs","astar.rs","csr.rs","data.rs","dijkstra.rs","dot.rs","generate.rs","graphmap.rs","isomorphism.rs","iter_format.rs","iter_utils.rs","k_shortest_path.rs","lib.rs","macros.rs","matrix_graph.rs","operator.rs","prelude.rs","scored.rs","simple_paths.rs","traits_graph.rs","unionfind.rs","util.rs"]};
+createSourceSidebar();
